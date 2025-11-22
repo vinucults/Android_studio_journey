@@ -2,7 +2,8 @@
 hi my self Vinay kumar hs 23 year old  Autmation tester and proffesional video editor 
 I’m starting from zero and learning Android development. This repo will track my progress with code snippets, mini apps, and practice projects.
 
-contact : https://acesse.one/Instagvintech
+contact : [Instagram](https://www.instagram.com/_.vintech._)
+
 
  Android Studio Journey  
  
