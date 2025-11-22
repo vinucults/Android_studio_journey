@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body { font-family: Arial; padding: 30px; }
+        .box { max-width: 300px; margin: auto; }
+        input { width: 100%; padding: 10px; margin: 10px 0; }
+        button { padding: 10px; width: 100%; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Login</h2>
+
+    <input type="text" id="username" placeholder="Enter Username">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="login()">Login</button>
+</div>
+
+<script>
+function login() {
+    let savedUser = localStorage.getItem("username");
+    let savedPass = localStorage.getItem("password");
+
+    let user = document.getElementById("username").value;
+    let pass = document.getElementById("password").value;
+
+    if (user === savedUser && pass === savedPass) {
+        alert("Login Successful!");
+        window.location.href = "home.html";
+    } else {
+        alert("Incorrect username or password!");
+    }
+}
+</script>
+
+</body>
+</html>
