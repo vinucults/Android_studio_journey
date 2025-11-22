@@ -1,4 +1,5 @@
 # Android_studio_journey
+hi my self Vinay kumar hs 23 year old  Autmation tester and proffesional video editor 
 I’m starting from zero and learning Android development. This repo will track my progress with code snippets, mini apps, and practice projects.
 
  Android Studio Journey  
